@@ -1,6 +1,6 @@
 # hyrule-jobs
 
-This template should help get you started developing with Vue 3 in Vite.
+A YouTube tutorial by The Net Ninja(https://www.youtube.com/watch?v=JfI5PISLr9w&list=PL4cUxeGkcC9gCtAuEdXTjNVE5bbMFo5OD)
 
 ## Recommended IDE Setup
 
