@@ -1,18 +1,19 @@
 <template>
   <div class="app">
-    <p>{{ jobs[0].location }}</p>
+    <JobList :jobs="jobs" />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, reactive, ref, toRefs } from "vue";
+import JobList from "./components/JobList.vue";
 import type Job from "./types/Job";
 
 //type Age = number | string;
 
 export default defineComponent({
   name: "App",
-  components: {},
+  components: { JobList },
   setup() {
     //reactive state
     // const state = reactive({
